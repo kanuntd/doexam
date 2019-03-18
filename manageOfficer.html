@@ -71,8 +71,51 @@
                 </div>
                 <!-- /. ROW  -->
                 <hr />
-                <div class="navlogout"> <a href="#" class="btn buttonpink"><i class="fas fa-plus"></i> เพิ่มเจ้าหน้าที่</a></div>
-                
+                <div class="navlogout"> <a class="btn buttonpink" data-toggle="modal" data-target="#myModalAdd"><i class="fas fa-plus"></i> เพิ่มเจ้าหน้าที่</a></div>
+                <div class="panel-body">
+                    <div class="modal fade" id="myModalAdd" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">เพิ่มเจ้าหน้าที่</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form role="form">
+                                        <!-- set value ด้วยยยยยยยยยยย!! -->
+                                        <div class="form-group">
+                                            <label>Username</label>
+                                            <input class="form-control" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input class="form-control" value="" type="password" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>รหัสเจ้าหน้าที่</label>
+                                            <input class="form-control" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ชื่อ-นามสกุล</label>
+                                            <input class="form-control" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ตำแหน่ง</label>
+                                            <input class="form-control" value="" />
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger"
+                                        data-dismiss="modal">ยกเลิก</button>
+                                    <button type="button" class="btn btn-success">ตกลง</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
                         <!-- Advanced Tables -->
@@ -113,6 +156,14 @@
                                                     <div class="modal-body">
                                                         <form role="form">
                                                             <!-- set value ด้วยยยยยยยยยยย!! -->
+                                                            <div class="form-group">
+                                                                <label>Username</label>
+                                                                <input class="form-control" value="" />
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label>Password</label>
+                                                                <input class="form-control" value="" />
+                                                            </div>
                                                             <div class="form-group">
                                                                 <label>รหัสเจ้าหน้าที่</label>
                                                                 <input class="form-control" value="" />
