@@ -33,7 +33,7 @@
                         <a href="#"><i class="fas fa-user fa-3x"></i> จัดการผู้ใช้<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="#">จัดการนิสิต</a>
+                                <a href="manageStudent.html">จัดการนิสิต</a>
                             </li>
                             <li>
                                 <a href="manageTecher.html">จัดการอาจารย์</a>
@@ -132,8 +132,13 @@
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">
-                                    <table class="table table-striped table-bordered table-hover"
-                                        id="dataTables-example">
+                                    <table class="table table-striped table-bordered table-hover">
+                                            <div class="col-sm-6">
+                                                    <div id="dataTables-example_filter" class="dataTables_filter">
+                                                        <label>Search: <input type="search" class="form-control input-sm"
+                                                                aria-controls="dataTables-example"></label>
+                                                    </div>
+                                                </div>
                                         <thead>
                                             <tr>
                                                 <th>รหัสอาจารย์</th>
